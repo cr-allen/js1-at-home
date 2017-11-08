@@ -1,2 +1,29 @@
-var message = `I want to learn JS because it's a key language in web development and that's what I'd like to work in, mostly.`;
-console.log(message);
+var name = prompt('what is your name?');
+  console.log(name);
+var Prompt = require('what is your favorite color?', "blue - no yellooooow");
+var prompt = new Prompt({
+  name: 'colors',
+  message: 'What are your favorite colors?',
+  choices: [
+    'red',
+    'blue',
+    'yellow',
+    'chartruse',
+    'raspberry',
+    'gray',
+    'aqua',
+    'green',
+    'black',
+    'white',
+  ]
+});
+
+// // promises
+// prompt.run()
+//   .then(function(answers) {
+//     console.log(answers)
+//   })
+//   .catch(function(err) {
+//     console.log(err)
+//   })
+//

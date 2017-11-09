@@ -1,7 +1,7 @@
 var name = prompt('what is your name?');
   console.log(name);
 
-var color = prompt('what is your favorite color?');
+var color = prompt('what is your favorite color?', 'chartruese', 'mustard');
 console.log(color);
 switch (color) {
   case 'red':

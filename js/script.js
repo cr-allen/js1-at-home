@@ -15,4 +15,28 @@ var color = console.log('whats your favorite color?', 'blue, no yellooooooow');
 var bkgrnd = document.body.style.backgroundColor = color;
 body.appendChild = backgroundColor;
 
+// edgecasing
+switch (color) {
+  case 'red', 'burgandy', 'ruby', 'cherry red', 'cherry', 'garnet':
+    document.body.style.backgroundColor = 'danger';
+    break;
+  case 'orange':
+    document.body.backgroundColor = 'orange';
+    break;
+  case '* blue', 'cerulean', 'aqua', 'navy':
+    document.body.style.backgroundColor = 'blue';
+    break;
+  case '* green', 'chartreuse', 'emerald':
+    document.body.style.backgroundColor = 'green';
+    break;
+  case 'brown':
+
+    break;
+  case '* pink', 'raspberry', 'magenta', 'rose' :
+    
+    break;
+
+  default:
+
+}
 //

@@ -13,11 +13,11 @@ title.appendChild(text);
 
 var color = console.log('whats your favorite color?', 'blue, no yellooooooow');
 var bkgrnd = document.body.style.backgroundColor = color;
-body.appendChild = backgroundColor;
+body.appendChild = bkgrnd;
 
 // edgecasing
 switch (color) {
-  case 'red', 'burgandy', 'ruby', 'cherry red', 'cherry', 'garnet':
+  case '* red', 'burgandy', 'ruby', 'cherry red', 'cherry', 'garnet':
     document.body.style.backgroundColor = 'danger';
     break;
   case 'orange':
@@ -33,10 +33,13 @@ switch (color) {
 
     break;
   case '* pink', 'raspberry', 'magenta', 'rose' :
-    
+
+    break;
+  case '* yellow', 'lemon', 'citrine':
+    document.body.
     break;
 
-  default:
+  default: console.log('pick another color, please');
 
 }
 //

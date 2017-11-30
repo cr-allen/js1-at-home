@@ -12,7 +12,7 @@ text.textContent = para;
 title.appendChild(text);
 
 var color = console.log('whats your favorite color?', 'blue, no yellooooooow');
-var bkgrnd = document.body.style.backgroundColor = color;
+var bkgrnd = color;
 body.appendChild = bkgrnd;
 
 // edgecasing
@@ -30,15 +30,17 @@ switch (color) {
     document.body.style.backgroundColor = 'green';
     break;
   case 'brown':
-
+    document.body.style.backgroundColor = 'brown';
     break;
   case '* pink', 'raspberry', 'magenta', 'rose' :
-
+    document.body.style.backgroundColor = 'pink';
     break;
   case '* yellow', 'lemon', 'citrine':
-    document.body.
+    document.body.style.backgroundColor = 'yellow';
     break;
-
+  case 'black':
+    document.body.style.backgroundColor = 'black'
+    break;
   default: console.log('pick another color, please');
 
 }
